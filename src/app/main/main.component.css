@@ -1,0 +1,16 @@
+
+.first{
+    background-image: url(ch.jpg);
+    background-size: cover;
+    height: 100vh;
+    color:white;
+    font-size: 2rem;
+}
+
+@media (max-width:680px){
+    .first{
+        background-size: contain;
+        font-size: 1.2rem;
+        background-repeat: no-repeat;
+    }
+}
